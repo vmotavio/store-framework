@@ -1,3 +1,4 @@
+{
 "vtex.menu@2.x:submenu#major": {
     "children":[ "vtex.menu@2.x:menu#major" ]
 },
@@ -9,5 +10,22 @@
   ],
   "props": {
       "orientation": "vertical"
+  }
+},
+"flex-layout.row#major": {
+    "children": [
+      "flex-layout.col#menu",
+      "flex-layout.col#img"
+    ]
+  },
+  "image#menu": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
+      "link": {
+        "url": "/small-appliances/coffee-makers"
+      },
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "200px"
+    }
   }
 }
