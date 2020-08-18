@@ -12,10 +12,11 @@
         }
       },
       "flex-layout.col#footer-right-desktop":{
-        "children": ["accepted-payment-methods"]
+        "children": ["social-networks"]
+        
       },
       "flex-layout.col#footer-left-desktop":{
-        "children": ["social-networks"]
+        "children": ["accepted-payment-methods"]
       },
       "accepted-payment-methods": {
         "props": {
