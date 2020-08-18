@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#footer-1-desktop": {
+        "children": [
+          "flex-layout.col#footer-left-desktop",
+          "flex-layout.col#footer-right-desktop",
+          "social-networks"
+        ],
+        "props": {
+          "blockClass": "footer-row",
+          "paddingTop": 7,
+          "paddingBottom": 7
+        }
+      },
+      "flex-layout.col#footer-left-desktop":{
+        "children": ["accepted-payment-methods"]
+      },
+      "accepted-payment-methods":{
+
+      },
+      "social-networks":{
+
+      }
+}
