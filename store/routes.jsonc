@@ -1,4 +1,7 @@
 {
+    "store.home": {
+        "path": "/"
+      },
     "store.custom#about-us": {
       "path": "/about-us"
     },

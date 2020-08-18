@@ -57,7 +57,7 @@
           "tab-content.item#home2"
           ]
       },
-      "tab-list.item#1": {
+      "tab-list.item#home1": {
         "props": {
           "tabId": "Sobre",
           "label": "sobre",
