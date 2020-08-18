@@ -11,8 +11,11 @@
           "paddingBottom": 7
         }
       },
-      "flex-layout.col#footer-left-desktop":{
+      "flex-layout.col#footer-right-desktop":{
         "children": ["accepted-payment-methods"]
+      },
+      "flex-layout.col#footer-left-desktop":{
+        "children": ["social-networks"]
       },
       "accepted-payment-methods": {
         "props": {
@@ -27,5 +30,6 @@
             { "url": "https://twitter.com/foo", "name": "Twitter" }
           ]
         }
-      }
+    }
+      
 }
