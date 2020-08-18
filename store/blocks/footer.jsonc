@@ -23,6 +23,7 @@
       },
       "accepted-payment-methods": {
         "props": {
+          "showInColor": true,  
           "paymentMethods": ["mastercard", "visa", "diners club"]
         }
       },
