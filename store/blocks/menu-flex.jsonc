@@ -18,6 +18,19 @@
       "flex-layout.col#img"
     ]
   },
+  "flex-layout.col#img": {
+    "props":{
+        "paddingRight": 4,
+        "horizontalAlign": "right"
+      },
+    "children": [
+      "rich-text#header",
+      "image#menu"
+    ]
+  },
+  "rich-text#header":{
+
+  },
   "image#menu": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
