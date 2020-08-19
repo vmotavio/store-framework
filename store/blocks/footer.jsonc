@@ -17,28 +17,28 @@
           "paddingTop": 7,
           "paddingBottom": 7
         }
-      },
-      "flex-layout.col#footer-left-desktop":{
-        "children": ["accepted-payment-methods"]
-      },
-      "accepted-payment-methods": {
-        "props": {
-          "showInColor": true,  
-          "paymentMethods": ["mastercard", "visa", "diners club"]
-        }
-      },
-      "flex-layout.col#footer-right-desktop":{
-        "children": ["social-networks"]
-      },
-      "social-networks": {
-        "props": {
-          "showInColor": true,  
-          "socialNetworks": [
-            { "url": "https://facebook.com/foo", "name": "Facebook" },
-            { "url": "https://instagram.com/foo", "name": "Instagram" },
-            { "url": "https://twitter.com/foo", "name": "Twitter" }
-          ]
-        }
-    }
+    },
+    "flex-layout.col#footer-left-desktop":{
+      "children": ["accepted-payment-methods"]
+    },
+    "accepted-payment-methods": {
+      "props": {
+        "paymentMethods": ["mastercard", "visa", "diners club"],
+        "showInColor": true
+      }
+    },
+    "flex-layout.col#footer-right-desktop":{
+      "children": ["social-networks"]
+    },
+    "social-networks": {
+      "props": {
+        "showInColor": true,
+        "socialNetworks": [
+          { "url": "https://facebook.com/foo", "name": "Facebook" },
+          { "url": "https://instagram.com/foo", "name": "Instagram" },
+          { "url": "https://twitter.com/foo", "name": "Twitter" }
+        ] 
+      }
+   }
       
 }
